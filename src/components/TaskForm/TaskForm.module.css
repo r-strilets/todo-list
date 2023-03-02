@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+.form label {
+  display: flex;
+  flex-direction: column;
+}
+.field {
+  margin-top: 10px;
+}
+.form button {
+  height: 20px;
+}
+.error {
+  position: absolute;
+  font-size: 12px;
+  color: red;
+}

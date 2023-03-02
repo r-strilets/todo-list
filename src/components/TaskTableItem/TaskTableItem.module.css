@@ -1,0 +1,13 @@
+.tableRow {
+  margin: 0;
+  background-color: grey;
+  border-spacing: 10px;
+}
+
+.tableRow td {
+  text-align: center;
+  padding: 25px 10px;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
